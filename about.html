@@ -10,32 +10,6 @@
 
 </head>
 <body>
-    <!-- Navigation Bar
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Jacob.</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="visually-hidden">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a> 
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav> -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Portofolio</a>
@@ -51,41 +25,58 @@
                 <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="project.html">Portfolio</a>
+                <a class="nav-link" href="#">Portfolio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link" href="#">Contact</a>
             </li>
             </ul>
             <span class="navbar-text">
-              A Frontend Developer
+              Navbar text with an inline element
             </span>
           </div>
         </div>
       </nav>
-
-    <!-- Jumbotron for Header -->
-    <div class="jumbotron">
-        <div class="container">
-            <h1 class="display-4">Hi, I'm Shermaine Ignacio</h1>
-            <p class="lead">Frontend Developer</p>
-            <p> Hallo! Ik ben een gepassioneerde software developer met een sterke interesse in het bouwen van efficiënte, schaalbare en gebruiksvriendelijke applicaties. Met 2 jaar ervaring in de techindustrie heb ik gewerkt aan diverse projecten, variorums van webdevelopment tot mobiele apps en backend-systemen. 
-
-                Mijn expertise ligt in JavaScript, CSS, HTML, Node.js, en ik ben altijd op zoek naar nieuwe uitdagingen om mijn vaardigheden verder te ontwikkelen.  </p>
-        </div>
+<!-- Header -->
+<header class="header">
+    <div class="container text-center">
+        <h1 class="display-1">About Me</h1>
+        <p class="lead">I'm a software developer based in the Netherlands.</p>
     </div>
+</header>
 
-    <!-- Middle Section -->
-    <div class="container middle-section">
+<section class="about-section py-5">
+    <div class="container">
         <div class="row">
-            <div class="col">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus nesciunt eum temporibus, sit nisi porro sint repellat saepe provident veritatis! Qui mollitia ipsum ducimus dignissimos tenetur amet magni consectetur possimus!</p>
-                <button type="button" class="btn btn-primary" onclick="location.href='project.html'">To Projects</button>
-                
+            <div class="col-md-6">
+                <h2>My Journey</h2>
+                <p>I started my journey as a software developer with a passion for creating beautiful and functional web applications. Over the years, I have honed my skills in HTML, CSS, JavaScript, and various 3d game engines.</p>
+            </div>
+            <div class="col-md-6">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>React, Unity, Discord.js</li>
+                    <li>Bootstrap, Tailwind CSS</li>
+                    <li>Version Control (Git, GitHub)</li>
+                    <li>Responsive Design</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <h2>Projects</h2>
+                <p>I have worked on various projects ranging from small business websites to large-scale web applications. My portfolio showcases some of the projects I am most proud of.</p>
+            </div>
+            <div class="col-md-6">
+                <h2>Contact</h2>
+                <p>If you would like to get in touch with me, feel free to reach out via the contact page. I am always open to discussing new projects and opportunities.</p>
             </div>
         </div>
     </div>
-    <footer class="footer pt-5">
+</section>
+
+      <footer class="footer pt-5">
         <div class="container">
             <div class="row g-4">
                 <!-- Company Info -->
